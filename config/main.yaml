@@ -1,0 +1,17 @@
+# Main configuration for Explora pipeline
+username: "admin"
+iterations: 50
+cache:
+  redis_host: localhost
+  redis_port: 6379
+  redis_db: 0
+gemini:
+  model: "gemini-2.0-flash"
+  temperature: 0.0
+  max_tokens: 512
+run_name: "test"
+force_run_name_in_config: true
+autodelete_duplicate_run: true
+verbose: true
+max_test_samples: 100
+results_dir: "explora_backend/results"

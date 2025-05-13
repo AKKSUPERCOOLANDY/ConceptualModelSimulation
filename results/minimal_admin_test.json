@@ -1,0 +1,9 @@
+{
+  "parameters": {
+    "iterations": 2,
+    "test_samples": 100
+  },
+  "top_models": [],
+  "total_iterations": 2,
+  "total_models_tested": 0
+}
